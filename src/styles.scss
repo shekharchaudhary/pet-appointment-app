@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: sienna;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > img {
+    margin-right: 20px;
+  }
+}
+
+.appointment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.button {
+  padding:10px 16px;
+  color:sienna;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 4;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-top: 50px
+}
+
+.inputContainer {
+  width: 370px;
+  padding: 12px;
+}
+
+.appointmentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 10px;
+  width: 20%
+}
+.searchAppointmentcontainer {
+  width: 390px;
+  height: 37px;
+  margin-top: 20px;
+}
+.appointmentList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
